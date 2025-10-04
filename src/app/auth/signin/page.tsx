@@ -1,5 +1,5 @@
-import SignInCard from '@/components/authentication/sign-in-card';
-import { SignInForm } from '@/components/authentication/sign-in-form';
+import SignInForm from '@/modules/authentication/forms/sign-in-form';
+import SignInCard from '@/modules/authentication/ui/sign-in-card';
 
 export default function SignInPage() {
   return (

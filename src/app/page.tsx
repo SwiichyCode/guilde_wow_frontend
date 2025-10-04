@@ -1,6 +1,6 @@
-import { SignOutButton } from '@/components/authentication/sign-out-button';
-import SignedInWrapper from '@/components/authentication/signed-in-wrapper';
 import { auth } from '@/lib/auth';
+import SignedInWrapper from '@/modules/authentication/guards/signed-in-wrapper';
+import { SignOutButton } from '@/modules/authentication/ui/sign-out-button';
 import { headers } from 'next/headers';
 
 export default async function Home() {
